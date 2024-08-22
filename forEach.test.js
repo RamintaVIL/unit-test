@@ -1,6 +1,10 @@
 
 const forEach = require("./forEach");
 
+// arba galima:
+// const add42 = 42 + x;
+// const mockCallback = jest.fn(add42);
+
 const mockCallback = jest.fn(x => 42 + x);
 
 test('forEach mock function', () => {

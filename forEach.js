@@ -4,6 +4,12 @@ function forEach(items, callback) {
     }
 }
 
+// function add42(x) {
+//     return 42 + x
+// }
+// module.exports = add42
+
+
 // const num = [1, 2, 3, 5, 8, 13];
 // const multi = (x) => {
 //     console.log(x * 3);
@@ -12,3 +18,4 @@ function forEach(items, callback) {
 // forEach(num, multi);
 
 module.exports = forEach;
+
