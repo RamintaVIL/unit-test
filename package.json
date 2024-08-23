@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "task": "node --watch ./task.js",
     "test": "jest",
     "testc": "jest --coverage"
   },
