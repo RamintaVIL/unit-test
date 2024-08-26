@@ -6,7 +6,7 @@ describe("task tests", () => {
     });
     test('Test with more distinct averages', () => {
         expect(distinctAverages([1, 3, 5, 7])).toBe(1);
-        // Paaiškinimas: Vidurkiai yra (1+7)/2 = 4 ir (3+5)/2 = 4, taigi yra 1 unikalus vidurkis.
+        // Vidurkiai yra (1+7)/2 = 4 ir (3+5)/2 = 4, taigi yra 1 unikalus vidurkis.
     });
     test('Test with no duplicates in averages', () => {
         expect(distinctAverages([1, 8, 3, 6])).toBe(1);
