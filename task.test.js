@@ -10,11 +10,11 @@ describe("task tests", () => {
     });
     test('Test with no duplicates in averages', () => {
         expect(distinctAverages([1, 8, 3, 6])).toBe(1);
-        // Paaiškinimas: Vidurkiai yra (1+8)/2 = 4.5 ir (3+6)/2 = 4.5, taigi yra 1 unikalus vidurkis.
+        // Vidurkiai yra (1+8)/2 = 4.5 ir (3+6)/2 = 4.5, taigi yra 1 unikalus vidurkis.
     });
     test('Test with all elements the same', () => {
         expect(distinctAverages([4, 4, 4, 4])).toBe(1);
-        // Paaiškinimas: Vidurkiai yra (4+4)/2 = 4, tik vienas unikalus vidurkis.
+        // Vidurkiai yra (4+4)/2 = 4, tik vienas unikalus vidurkis.
     });
 });
 
