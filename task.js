@@ -10,7 +10,9 @@ function distinctAverages(nums) {
     return averages.size;
 }
 
-console.log(distinctAverages([1, 2, 3, 4]))
-console.log(distinctAverages([2, 4, 6, 8]))
-console.log(distinctAverages([-2, 4, 6, 300]))
-console.log(distinctAverages([-2, -4, -6, 300]))
+module.exports = distinctAverages;
+
+// console.log(distinctAverages([1, 2, 3, 4]))
+// console.log(distinctAverages([2, 4, 6, 8]))
+// console.log(distinctAverages([-2, 4, 6, 300]))
+// console.log(distinctAverages([-2, -4, -6, 300]))
